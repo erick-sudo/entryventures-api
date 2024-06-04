@@ -1,0 +1,65 @@
+resources:
+  - name: User
+    actions:
+      - name: create
+        conditions:
+          - role: admin
+          - valid_email: true
+      - name: read
+        conditions:
+          - role: user
+      - name: update
+        conditions:
+          - role: admin
+      - name: delete
+        conditions:
+          - role: admin
+
+  - name: Loan
+    actions:
+      - name: apply
+        conditions:
+          - credit_score: good
+          - employment_status: employed
+      - name: view
+        conditions:
+          - role: user
+      - name: approve
+        conditions:
+          - role: loan_officer
+      - name: reject
+        conditions:
+          - role: loan_officer
+      - name: close
+        conditions:
+          - loan_status: repaid
+
+  - name: Client
+    actions:
+      - name: create
+        conditions:
+          - role: admin
+      - name: view
+        conditions:
+          - role: user
+      - name: update
+        conditions:
+          - role: admin
+      - name: delete
+        conditions:
+          - role: admin
+
+  - name: LoanCollection
+    actions:
+      - name: view
+        conditions:
+          - role: collection_agent
+      - name: add_payment
+        conditions:
+          - payment_valid: true
+      - name: generate_report
+        conditions:
+          - role: admin
+      - name: close_collection
+        conditions:
+          - collection_status: closed

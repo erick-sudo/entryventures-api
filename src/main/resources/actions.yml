@@ -1,0 +1,69 @@
+resources:
+  - name: Role
+    arn-prefix: role
+    actions:
+      - Create
+      - Read
+      - Update
+      - Delete
+      - AttachToGroup
+      - DetachFromGroup
+
+  - name: Group
+    arn-prefix: group
+    actions:
+      - Create
+      - Read
+      - Update
+      - Delete
+      - AttachRole
+      - DetachRole
+
+  - name: Policy
+    arn-prefix: policy
+    actions:
+    - Create
+    - Read
+    - Update
+    - Delete
+    - ListResourcePolicies
+    - ListUserPolicies
+    - DetachResourcePolicies
+    - DetachUserPolicies
+
+  - name: User
+    arn-prefix: user
+    actions:
+      - Create
+      - Read
+      - Update
+      - Delete
+      - AttachRole
+      - AddToGroup
+
+  - name: Loan
+    arn-prefix: loan
+    actions:
+      - Apply
+      - View
+      - Approve
+      - Disburse
+      - Reject
+      - Close
+      - GenerateReport
+
+  - name: Client
+    arn-prefix: client
+    actions:
+      - Create
+      - View
+      - Update
+      - Delete
+
+  - name: LoanCollection
+    arn-prefix: l-collection
+    actions:
+      - Create
+      - Read
+      - Update
+      - Delete

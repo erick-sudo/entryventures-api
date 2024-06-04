@@ -1,0 +1,46 @@
+entry:
+  ventures:
+    jwt:
+      jwtSecretKey: DQ7jcACh9Kyf0f0GdeVByA51AauNC1XBESMjteJl9Z2xFIrl9qasR35LeRzOsYjm73_SWKptrrWmsbc9tqwk40Ucn1NVQBMdpeJ8UD_eTArCJTwjlYY4MVgPUtjNz6lKPwJH8ZvSQuS_9QYjoTAKLv5VPV5UCJfC2BcvDgv1NZh02qS3vNMIsuHE_yDssN9RxuLm_wnQNPbWcjPNOiP8zZ5A0dxc48XSz289nCG1exo7JoCZ2IldAdNY2GY8ZMDQfMbCtIKkfFw
+      jwtExpirationMs: 3600000
+# https://sandbox.safaricom.co.ke/
+apis:
+  jenga:
+    base-account: acc
+    base-url: https://uat.finserve.africa/
+    api-key: j+mMWyPbuqvcwY+eZQN7Q72igAWZqTqpcBuxaRjc3SX1+4fIfVlYr9c3qIgbwLcXHBD4HTib47WTk/QTRm3DcA==
+    merchant-code: 1619371299
+    consumer-secret: 8xoMtY8Nt4d4ckXKJ545lw2w6L0DXJ
+  info-bid:
+    base-url: https://6jxgvd.api.infobip.com/
+    api-key: c1573b19730cbed83c6c8cc002a78a27-fa2015a2-379d-43e8-8cdc-fd37e9920790
+  mpesa:
+    base-url: https://sandbox.safaricom.co.ke/
+    basic-auth-token: bVJmUXd1OGpBUkdSYVlKdFZXWkE3OVlhTHB0bWs4cDY6dlh6SmJtMTZBcjhLOVpWOQ==
+    business-shortcode: 174379
+    merchant-passkey: bfb279f9aa9bdbcf158e97dd71a467cd2e0c893059b10f78e6b72ada1ed2c919
+    initiator-name: testapi
+    queue-timeout-url: http://localhost:8080/mpesatimeouturl
+    b2c:
+      result-url: http://localhost:8080/b2c/result/url
+  co-op:
+    base-url: https://openapi-sandbox.co-opbank.co.ke/
+
+docs:
+  openapi:
+    dev-url: http://localhost:8081
+    prod-url: https://localhost:8081
+
+spring:
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: guest
+    password: guest
+  activemq:
+    broker-url: tcp://localhost:61616
+    user: admin
+    password: admin
+
+cors:
+  origins: http://localhost:3000,http://localhost:5173,http://192.168.142.1:5173

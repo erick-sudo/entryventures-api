@@ -1,0 +1,14 @@
+{
+  "status": true,
+  "code": "0",
+  "message": "success",
+  "transactionReference": "S001946909393",
+  "data": {
+    "ResponseCode": "0",
+    "ReceiverMsisdn": "254708028398",
+    "Reference": "S001946909393",
+    "ResponseDescription": "254708028398 Jonh Wick",
+    "ThirdPartyTranID": "S001946909393",
+    "ReceiverName": "Jonh Wick"
+  }
+}

@@ -1,0 +1,122 @@
+[
+  {
+    "id": "1a8da0f0-c9f3-4b1e-8711-53d0e6a65b33",
+    "status": "Pending",
+    "amount": 5000.0,
+    "repayment_interval": "WEEKS",
+    "first_repayment_date": "2024-02-11",
+    "interest_rate": 5.0,
+    "type_of_interest": "SIMPLE",
+    "client_id": "a3b97676-cc95-4e39-9bf2-1de0951ddd1f",
+    "loan_officer_id": "15364327-33cc-44d8-92b5-03494597ca64",
+    "vault_id": "ee85fa58-c1cb-4313-b8aa-e5d912a4cbfe"
+  },
+  {
+    "id": "2b9c8fe7-2d9e-4f95-b832-7919c6f3a3aa",
+    "status": "Pending",
+    "amount": 8000.0,
+    "repayment_interval": "WEEKS",
+    "first_repayment_date": "2024-03-15",
+    "interest_rate": 7.5,
+    "type_of_interest": "COMPOUND",
+    "client_id": "6a00823f-2896-48a6-877c-088e0c0fa8bb",
+    "loan_officer_id": "15364327-33cc-44d8-92b5-03494597ca64",
+    "vault_id": "ee85fa58-c1cb-4313-b8aa-e5d912a4cbfe"
+  },
+  {
+    "id": "3c6a30ae-13f2-4f2b-99a9-8968b7408cc4",
+    "status": "Pending",
+    "amount": 10000.0,
+    "repayment_interval": "WEEKS",
+    "first_repayment_date": "2024-04-20",
+    "interest_rate": 6.0,
+    "type_of_interest": "SIMPLE",
+    "client_id": "c2db2161-fb04-48ce-a581-b9ba1c87afaa",
+    "loan_officer_id": "15364327-33cc-44d8-92b5-03494597ca64",
+    "vault_id": "ee85fa58-c1cb-4313-b8aa-e5d912a4cbfe"
+  },
+  {
+    "id": "4df9f5e0-1a52-4d49-aa84-dc1064b8cbdc",
+    "status": "Pending",
+    "amount": 12000.0,
+    "repayment_interval": "WEEKS",
+    "first_repayment_date": "2024-05-25",
+    "interest_rate": 8.0,
+    "type_of_interest": "COMPOUND",
+    "client_id": "6d444a3d-9a73-403e-91f9-12289aa7e19d",
+    "loan_officer_id": "15364327-33cc-44d8-92b5-03494597ca64",
+    "vault_id": "ee85fa58-c1cb-4313-b8aa-e5d912a4cbfe"
+  },
+  {
+    "id": "5e1d0b49-b7f0-4a27-b5f5-6d9e2f0fbb24",
+    "status": "Pending",
+    "amount": 15000.0,
+    "repayment_interval": "WEEKS",
+    "first_repayment_date": "2024-06-30",
+    "interest_rate": 5.5,
+    "type_of_interest": "SIMPLE",
+    "client_id": "15f51ecf-7f35-4932-b40b-4f169828f34f",
+    "loan_officer_id": "15364327-33cc-44d8-92b5-03494597ca64",
+    "vault_id": "ee85fa58-c1cb-4313-b8aa-e5d912a4cbfe"
+  },
+  {
+    "id": "6f870a9f-83a0-4d89-9d09-826b17860b47",
+    "status": "Pending",
+    "amount": 18000.0,
+    "repayment_interval": "WEEKS",
+    "first_repayment_date": "2024-08-05",
+    "interest_rate": 7.0,
+    "type_of_interest": "COMPOUND",
+    "client_id": "e337bee6-5c28-4949-b4fe-4797ee082ca9",
+    "loan_officer_id": "15364327-33cc-44d8-92b5-03494597ca64",
+    "vault_id": "ee85fa58-c1cb-4313-b8aa-e5d912a4cbfe"
+  },
+  {
+    "id": "7e5c9a7e-3ee0-402d-9e3c-17e4e4c7c076",
+    "status": "Pending",
+    "amount": 20000.0,
+    "repayment_interval": "WEEKS",
+    "first_repayment_date": "2024-09-10",
+    "interest_rate": 6.5,
+    "type_of_interest": "SIMPLE",
+    "client_id": "028676c1-619a-4d41-8feb-8d75e7775354",
+    "loan_officer_id": "15364327-33cc-44d8-92b5-03494597ca64",
+    "vault_id": "ee85fa58-c1cb-4313-b8aa-e5d912a4cbfe"
+  },
+  {
+    "id": "8d9e3941-5e5e-4d21-af9c-8fb96a7ddaed",
+    "status": "Pending",
+    "amount": 22000.0,
+    "repayment_interval": "WEEKS",
+    "first_repayment_date": "2024-10-15",
+    "interest_rate": 8.5,
+    "type_of_interest": "COMPOUND",
+    "client_id": "70e9e5ad-02c8-42db-a69f-00886e361f83",
+    "loan_officer_id": "15364327-33cc-44d8-92b5-03494597ca64",
+    "vault_id": "ee85fa58-c1cb-4313-b8aa-e5d912a4cbfe"
+  },
+  {
+    "id": "9c4b6a93-6ea1-4f8e-9606-8bbfae40b98b",
+    "status": "Pending",
+    "amount": 25000.0,
+    "repayment_interval": "WEEKS",
+    "first_repayment_date": "2024-11-20",
+    "interest_rate": 5.0,
+    "type_of_interest": "SIMPLE",
+    "client_id": "9c30e0fe-2406-42f0-9863-df7b21f74d2f",
+    "loan_officer_id": "15364327-33cc-44d8-92b5-03494597ca64",
+    "vault_id": "ee85fa58-c1cb-4313-b8aa-e5d912a4cbfe"
+  },
+  {
+    "id": "aeb5a692-3f85-42b7-9b59-0419530b0a42",
+    "status": "Pending",
+    "amount": 28000.0,
+    "repayment_interval": "WEEKS",
+    "first_repayment_date": "2024-12-25",
+    "interest_rate": 7.5,
+    "type_of_interest": "COMPOUND",
+    "client_id": "cded75e5-4387-4e6c-b7a4-beaad41d1785",
+    "loan_officer_id": "15364327-33cc-44d8-92b5-03494597ca64",
+    "vault_id": "ee85fa58-c1cb-4313-b8aa-e5d912a4cbfe"
+  }
+]

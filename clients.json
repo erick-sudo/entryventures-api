@@ -1,0 +1,72 @@
+[
+    {
+      "id": "a3b97676-cc95-4e39-9bf2-1de0951ddd1f",
+      "name": "Sila Stephene",
+      "email": "silastephene@gmail.com",
+      "address": "Nairobi, Karen",
+      "phone": "706087204"
+    },
+    {
+      "id": "6a00823f-2896-48a6-877c-088e0c0fa8bb",
+      "name": "Erick Ochieng",
+      "email": "erickochieng@gmail.com",
+      "address": "Nairobi, Karen",
+      "phone": "776843589"
+    },
+    {
+      "id": "c2db2161-fb04-48ce-a581-b9ba1c87afaa",
+      "name": "John Doe",
+      "email": "johndoe@gmail.com",
+      "address": "Unknown",
+      "phone": "123456789"
+    },
+    {
+      "id": "6d444a3d-9a73-403e-91f9-12289aa7e19d",
+      "name": "Jane Doe",
+      "email": "janedoe@gmail.com",
+      "address": "Mysterious City",
+      "phone": "457654321"
+    },
+    {
+      "id": "15f51ecf-7f35-4932-b40b-4f169828f34f",
+      "name": "Alice Johnson",
+      "email": "alicejohnson@gmail.com",
+      "address": "Cityville",
+      "phone": "555123789"
+    },
+    {
+      "id": "e337bee6-5c28-4949-b4fe-4797ee082ca9",
+      "name": "Bob Smith",
+      "email": "bobsmith@gmail.com",
+      "address": "Suburbia",
+      "phone": "789456123"
+    },
+    {
+      "id": "028676c1-619a-4d41-8feb-8d75e7775354",
+      "name": "Grace White",
+      "email": "gracewhite@gmail.com",
+      "address": "Village",
+      "phone": "654987321"
+    },
+    {
+      "id": "70e9e5ad-02c8-42db-a69f-00886e361f83",
+      "name": "Daniel Brown",
+      "email": "danielbrown@gmail.com",
+      "address": "Countryside",
+      "phone": "321789654"
+    },
+    {
+      "id": "9c30e0fe-2406-42f0-9863-df7b21f74d2f",
+      "name": "Sophie Miller",
+      "email": "sophiemiller@gmail.com",
+      "address": "Rural",
+      "phone": "987654321"
+    },
+    {
+      "id": "cded75e5-4387-4e6c-b7a4-beaad41d1785",
+      "name": "Michael Davis",
+      "email": "michaeldavis@gmail.com",
+      "address": "Farmland",
+      "phone": "123987654"
+    }
+  ]

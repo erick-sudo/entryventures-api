@@ -1,0 +1,59 @@
+version: "3.8"
+
+services:
+  postgres_db:
+    build:
+      context: postgres
+      dockerfile: Dockerfile
+    container_name: dev_postgres_entry_ventures_db
+    environment:
+      POSTGRES_USER: user_entry_ventures
+      POSTGRES_PASSWORD: password_entry_ventures
+      POSTGRES_DB: db_entry_ventures
+    ports:
+      - "5433:5432"
+    volumes:
+      - postgres-data:/var/lib/postgresql/data
+    networks:
+      - dev_entry_ventures_network
+
+  mongo_db:
+    build:
+      context: mongo
+      dockerfile: Dockerfile
+    container_name: dev_mongodb_entry_ventures_db
+    ports:
+      - "27018:27017"
+    volumes:
+      - mongo-data:/data/db
+    networks:
+      - dev_entry_ventures_network
+    restart: always
+
+  apache_mq:
+    build:
+      context: queuing
+      dockerfile: Dockerfile
+    container_name: dev_entry_ventures_active_mq
+    ports:
+      - "8161:8161"
+      - "61616:61616"
+    networks:
+      - dev_entry_ventures_network
+
+networks:
+  dev_entry_ventures_network: {}
+
+volumes:
+  postgres-data:
+    driver: local
+    driver_opts:
+      type: none
+      o: bind
+      device: ./data/postgres
+  mongo-data:
+    driver: local
+    driver_opts:
+      type: none
+      o: bind
+      device: ./data/mongo
